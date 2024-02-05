@@ -3,45 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> DEVELOPER LANDING PAGE</title>
+    <title>DEVELOPER LANDING PAGE</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="hero_section">
+    <nav>
+        <ul>
+            <li><a href="#hero_section">Home</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#bottom_section">Contact & About</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero_section" class="hero_section">
         <div class="text_container">
             <h2><span class="lg_text">HI,</span>I AM KISHAN KUMAR YADAV</h2>
             <h1><span class="lg_text">FULL STACK DEVELOPER</span></h1>
-    </div>
-</section>
+        </div>
+    </section>
+
     <section class="black_box">
         <h2>WORK, I CAN DO FOR <span>YOU</span></h2>
     </section>
-    <section class="work">
-         <div class="card">
+
+    <section id="work" class="work">
+        <!-- Your existing work section -->
+        <section class="work">
+         <div class="grid_item"><div class="card">
             <div class="image_container">
             <img src="images/web.png" alt="web development">
             </div>
             <div class="cardcontainer">
                <h3>WEB DEVELOPMENT</h3>
-            </div>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aut sapiente quas sequi modi labore!</p>
+            </div></div>
          </div>
-         <div class="card">
+         <div class="grid_item"><div class="card">
             <div class="image_container">
-            <img src="images/UIUX.png" alt="mobile development">
+            <img src="images/mobile.png" alt="mobile development">
             </div>
             <div class="cardcontainer">
                <h3>MOBILE DEVELOPMENT</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum voluptates temporibus suscipit atque ratione iure.</p>
             </div>
-         </div>
-         <div class="card">
+         </div></div>
+         <div class="grid_item"><div class="card">
             <div class="image_container">
-            <img src="images/mobile.png" alt="uiux development">
+            <img src="images/uiux.png" alt="uiux development">
             </div>
             <div class="cardcontainer">
                <h3>UIUX DEVELOPMENT</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus impedit soluta et enim ratione alias.</p>
             </div>
-         </div>
+         </div></div>
+            
+            </div>
+           
+           
+       </section>
     </section>
- <script src="script.js"></script>
+
+    <section id="bottom_section" class="bottom_section">
+        <div class="contact">
+            <h2>CONTACT me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A harum ex ab dolorem, labore necessitatibus.</p>
+            <p>dosomecoding@example.test</p>
+        </div>
+
+        <div class="about">
+            <h2>About me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda placeat autem harum eius magni! Quaerat.</p>
+        </div>
+    </section>
+
+    <button class="download_button" >Download CV</button>
+    <a href="K.pdf" download></a>
+     
+    <script src="script.js"></script>
 </body>
 </html>
