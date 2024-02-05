@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+.hero_section{
+    background-image: url(images/developer.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text_container{
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+.lg_text{
+    font-size: 72px;
+}
+.text_container h1{
+    color:red;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px #000; 
+
+}
+.black_box{
+    background-color: #000;
+    padding: 20px;
+}
+.black_box h2{
+    font-weight: 400;
+    font-size: 96px;
+
+}
+.black_box h2 {
+    font-weight: 300;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+         
+}
+
+.black_box h2 span{
+    font-weight: 400;
+    font-size: 96px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20%;
+}
